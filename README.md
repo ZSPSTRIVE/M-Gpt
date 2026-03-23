@@ -1,110 +1,136 @@
 # M-GPT
 
 <p align="center">
-  <strong>The Next-Generation AI Mirror Station for teams, builders, and high-frequency users.</strong>
+  <strong>The AI Research Mirror Station for literature review, paper reading, deep analysis, and research-grade Skills.</strong>
+</p>
+
+<p align="center">
+  M-GPT is designed to turn AI access into a serious research workspace.
 </p>
 
 <p align="center">
   <a href="https://YOUR-DOMAIN.COM">Official Website</a> |
-  <a href="https://CHAT.YOUR-DOMAIN.COM">Live Demo</a> |
+  <a href="https://CHAT.YOUR-DOMAIN.COM">Live Entry</a> |
   <a href="./README_zh.md">中文介绍</a>
 </p>
 
 ## Overview
 
-M-GPT is a next-generation AI mirror station designed to deliver a refined, production-oriented conversational workspace for modern users and enterprise teams.
+M-GPT is a next-generation AI research mirror station built for users and teams who care about real research output, not just model access.
 
-It is built for organizations that need a stable, extensible, and polished AI entry point rather than a simple chat page. The project combines a ChatGPT-style interaction layer with reserved integration points for Python APIs, RAG pipelines, skill orchestration, account systems, workspace management, and administrative operations.
-
-M-GPT is positioned not just as a demo UI, but as the front-end foundation of a full AI access platform.
-
-## Why M-GPT
-
-- Professional-grade conversational interface with a clean, modern interaction model
-- Multi-model experience with model switching and per-message regeneration
-- Reserved backend integration points for Python, FastAPI, RAG, Skills, and Admin systems
-- Enterprise-oriented account, invite-code, workspace, and capability management flows
-- Designed for future expansion into private knowledge bases, internal workflows, and operational tooling
+It is suitable for academic reading, literature synthesis, technical analysis, experiment planning, research writing, private knowledge-base retrieval, and long-form deep-research tasks. The current front-end is already structured as a product entry rather than a temporary page, which makes it suitable for public promotion, internal deployment, and long-term platform growth.
 
 ## Product Positioning
 
-M-GPT is built as a unified AI mirror station for:
+M-GPT is positioned as:
 
-- Individual power users who want a smoother, more controllable AI experience
-- Teams that need an internal AI portal with workspace boundaries and managed access
-- Operators building model gateways, knowledge products, or enterprise AI workbenches
-- Organizations preparing to connect LLM chat, RAG, workflow skills, and administration into one entrance
+- A branded AI research mirror station
+- A research portal for labs, graduate students, and technical teams
+- A deployable front-end for paper workflows, RAG systems, and research Skills
+- A scalable product shell prepared for Python APIs, knowledge retrieval, Skills, and admin operations
 
-## Core Capabilities
+## Why M-GPT
 
-### 1. Conversational Workspace
+Most mirror stations stop at access.
 
-M-GPT offers a highly familiar AI chat experience while preserving room for platform-level evolution. The current interface already includes:
+M-GPT is built for what comes after access: reading faster, organizing evidence, comparing papers, planning research tasks, and connecting AI assistance with real scientific workflows.
 
-- Recent conversations
-- Model selection
-- Message regeneration by model
-- Copy actions
+That makes it a better fit for:
+
+- Research teams
+- University labs
+- AI-assisted reading platforms
+- Deep-research products
+- Knowledge-intensive internal systems
+
+## Research-Focused Capabilities
+
+### 1. Product-Grade Research Workspace
+
+The current interface already supports a more complete AI workflow:
+
+- Conversation management
+- Multi-model switching
+- Per-message regeneration
 - Attachment entry points
 - Knowledge-base toggles
-- Share and conversation operation placeholders
+- Share and operation placeholders
+- Account, workspace, and admin entry points
+- Invite-code activation and login flows
 
-### 2. Enterprise-Ready Architecture
+### 2. Rich Research Skills
 
-The project is structured to support downstream service integration without reworking the front-end rendering layer. Reserved capabilities include:
+M-GPT is especially suitable for building and hosting a large collection of research Skills, such as:
 
-- Python API integration
-- Streaming response endpoints
-- RAG retrieval and source management
-- Skill center and enablement flows
-- Invite-code activation and login
-- Workspace status, member overview, and admin console access
+- Literature search and filtering
+- Paper reading and structured summarization
+- Cross-paper comparison
+- Methodology extraction
+- Experiment design support
+- Technical translation
+- Academic writing assistance
+- Citation and evidence organization
+- Private knowledge-base Q&A
+- Deep-research task orchestration
 
-### 3. Promotion-Friendly Deployment Model
+### 3. Built for Expansion
 
-M-GPT can be presented as a branded mirror station for public promotion, private delivery, or enterprise internal rollout. It is suitable for:
+The current front-end already reserves integration space for:
 
-- Official product landing deployments
-- Private AI access portals
-- Team-exclusive workspaces
-- White-label or customized mirror station launches
+- Python / FastAPI services
+- Streaming model responses
+- RAG retrieval pipelines
+- Research Skill orchestration
+- Workspace-level capability control
+- Administrative dashboards and operational data
 
-## Experience Direction
+This allows the project to evolve from a public-facing mirror station into a full research AI platform without rebuilding the interface layer.
 
-M-GPT emphasizes three principles:
+## Ideal Use Cases
 
-- Familiarity: users can start immediately with minimal learning cost
-- Extensibility: the current UI already leaves space for real backend integration
-- Credibility: the interaction model is designed to feel closer to a serious AI product than a temporary prototype
+- Public-facing AI research mirror station
+- Laboratory AI workspace
+- Research-group internal portal
+- Paper-reading and literature-analysis platform
+- Knowledge-base and RAG research hub
+- White-label research AI deployment
 
-## Recommended Promotion Copy
+## Promotion Copy
 
-M-GPT is a next-generation AI mirror station built for users who expect more than a basic model wrapper. It provides a polished conversational interface, enterprise-ready extension points, and a scalable architecture for model access, knowledge retrieval, workflow execution, and administrative management.
+### Short Version
 
-If you are looking for a reliable AI mirror station with room for long-term product growth, M-GPT is the right foundation.
+M-GPT is a next-generation AI research mirror station built for literature review, paper reading, technical analysis, and scientific productivity. It combines a polished conversational experience with a product-ready structure for research Skills, private knowledge retrieval, workspace management, and long-term platform operation.
 
-## Website Placeholders
+### Long Version
+
+M-GPT is not just an AI chat page. It is a research-oriented AI mirror station created for teams and organizations that need a stronger entry point for scientific work.
+
+It is designed to support high-frequency research scenarios such as paper reading, evidence extraction, literature comparison, structured summarization, and deep-research task execution. At the same time, it preserves clear extension points for Python APIs, RAG systems, research Skills, workspace logic, and administrative operations.
+
+For teams that want to launch a more credible, more scalable, and more research-capable AI product entrance, M-GPT provides a stronger starting point.
+
+## Link Placeholders
 
 - Official Website: `https://YOUR-DOMAIN.COM`
 - Chat Entry: `https://CHAT.YOUR-DOMAIN.COM`
 - Documentation: `https://DOCS.YOUR-DOMAIN.COM`
-- Contact Email: `business@YOUR-DOMAIN.COM`
+- Business Contact: `business@YOUR-DOMAIN.COM`
 
-## Current Tech Stack
+## Tech Foundation
 
 - Vue 3
 - Vite
-- Front-end mock service layer for platform APIs
-- UI structure prepared for Python / RAG / Skills / Admin integration
+- Mocked platform API layer
+- Front-end reserved for Python / RAG / Skills / Admin integration
 
 ## Roadmap
 
-- Connect real Python / FastAPI backend services
-- Add true model routing and streaming responses
-- Connect retrieval-augmented generation pipelines
-- Introduce file upload and source ingestion
-- Complete account, workspace, and permission persistence
-- Add deployment documentation for public and enterprise environments
+- Connect real backend services
+- Add model streaming and routing
+- Connect literature and knowledge-source ingestion
+- Complete RAG-based research retrieval
+- Build more domain-specific research Skills
+- Publish deployment and operation documentation
 
 ## Local Development
 
@@ -113,12 +139,8 @@ npm install
 npm run dev
 ```
 
-Build for production:
+Production build:
 
 ```bash
 npm run build
 ```
-
-## Chinese Version
-
-For the full Chinese product introduction, see [README_zh.md](./README_zh.md).

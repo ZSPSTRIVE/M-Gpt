@@ -535,13 +535,8 @@ watch(
     <aside class="sidebar" :class="{ collapsed: isSidebarCollapsed }">
       <div class="sidebar-body">
         <div class="sidebar-header">
-          <button class="brand-btn" type="button" aria-label="OpenAI">
-            <svg class="brand-icon" viewBox="0 0 24 24" aria-hidden="true">
-              <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75">
-                <path d="M12.1 2.6a4.3 4.3 0 0 1 4.12 2.88l1.88.08a4.28 4.28 0 0 1 2.14 7.95l.25 1.86a4.28 4.28 0 0 1-6.1 4.38l-1.5 1.14a4.29 4.29 0 0 1-6.84-3.66l-1.15-1.48a4.28 4.28 0 0 1 2.6-6.87l.73-1.73A4.29 4.29 0 0 1 12.1 2.6Z" />
-                <path d="M9.15 4.92 15.66 8.7l-.03 7.57-6.55 3.79-6.51-3.78.03-7.58 6.52-3.78Z" opacity=".22" />
-              </g>
-            </svg>
+          <button class="brand-btn" type="button" aria-label="M-GPT">
+            <img class="brand-icon" src="/favicon.svg" alt="" />
           </button>
           <button class="sidebar-toggle" type="button" @click="toggleSidebar">
             <svg viewBox="0 0 24 24" aria-hidden="true">
@@ -612,7 +607,7 @@ watch(
       <header class="topbar" :class="{ compact: !!activeConversation }">
         <div class="model-area">
           <button ref="modelTriggerRef" class="model-trigger" type="button" @click="toggleModelMenu">
-            <span class="model-label">ChatGPT</span>
+            <span class="model-label">M-GPT</span>
             <svg class="model-chevron" viewBox="0 0 24 24"><path d="m6.5 9.4 5.5 5.2 5.5-5.2" /></svg>
             <span class="model-dot"></span>
           </button>
@@ -654,7 +649,7 @@ watch(
               <div class="message-avatar">{{ message.role === 'assistant' ? 'AI' : '你' }}</div>
               <div class="message-card" :class="{ user: message.role === 'user' }">
                 <div v-if="message.role === 'assistant'" class="message-head">
-                  <div class="message-author">ChatGPT</div>
+                  <div class="message-author">M-GPT</div>
                   <div class="message-head-right">
                     <span class="model-chip">{{ message.model }}</span>
                     <span v-if="message.regeneratedAt" class="state-chip">已重答</span>
@@ -919,7 +914,7 @@ watch(
       </div>
 
       <div class="status-chip">{{ statusMessage }}</div>
-      <footer class="disclaimer">ChatGPT 也可能会犯错。OpenAI 不会使用“GoGoTeam20260304”工作空间数据来训练其模型。</footer>
+      <footer class="disclaimer">M-GPT 可能会出现不准确内容，涉及科研结论、实验设计与正式发表前请务必复核。</footer>
     </main>
   </div>
 </template>
